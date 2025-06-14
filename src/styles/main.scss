@@ -1,0 +1,23 @@
+@import 'utils';
+@import 'fonts';
+@import 'typography';
+@import 'reset';
+@import 'header';
+@import 'creative';
+@import 'grid';
+@import 'product';
+@import 'about';
+@import 'footer';
+
+body {
+  font-family: Inter, serif;
+  background-color: $page-back-color;
+  font-style: normal;
+  font-weight: normal;
+  scroll-behavior: smooth;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
